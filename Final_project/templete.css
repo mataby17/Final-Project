@@ -1,0 +1,237 @@
+body{
+    margin:0;
+    background: rgb(209, 176, 176);
+    font-family: Work 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    background: rgb(202, 198, 198);
+
+}
+
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 33px;
+    padding: 25px;
+    position: relative;
+}
+nav a {
+    color: rgb(121, 73, 64);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(147, 9, 202);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: rgb(32, 6, 32);
+    position: absolute;
+    top:0;
+    width: 0%;
+    transition: all ease-in 250ms;
+}
+nav a:hover::before{
+    width: 75%;
+}
+
+img#successimg {
+    float: right;
+    height: 200px;
+    padding: 10px;
+    width: 25%;
+    margin-right: 30px;
+}
+h4.h4 {
+    text-align: center;
+    margin-top: 35px;
+}
+div#link {
+    text-align: center;
+    padding: 5px;
+}
+.clock{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:101E;
+    width:100%;
+    margin-left: -50px;
+}
+.datetime{
+    color: #fff;
+    background:#10101E;
+    font-family: "Segoe UI",sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    
+}
+.main-body {
+    margin-bottom: -204px;
+    padding: 20px;
+}
+.datetime:hover{
+    background:#2E94E3;
+    box-shadow: 0 0  30px #2E94E3;
+}
+.date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.time span:last-child{
+    background:#2E94E3;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+  .left {
+    width: 90%;
+    padding: 156px;
+    margin-top: -151px;
+}
+.covidimg {
+    width: 631px;
+    height: 306px;
+    border-radius: 20%;
+    float: left;
+    background-image: url(https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/949947192ForensicDNAAnalyst.jpg);
+    margin-left: 12px;
+}
+.covidimgg {
+    width: 422px;
+    height: 304px;
+    border-radius: 20%;
+    margin-left: 173px;
+    float: left;
+    background-image: url(https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_400/v1/media/gmg/2ED7JUZTBFDTLN3XEUERD56M4I.jpg?_a=ATABlAA0);
+}
+
+iframe.med {
+    width: 75%;
+    padding: 60px;
+    margin-left: 75px;
+}
+.showcase{
+    position:absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+
+}
+.showcase video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+
+}
+.header {
+    width: 100%;
+    margin-left: 104px;
+    margin-top: -100px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2%;
+    height: 100%;
+    background:rgba(0,0,0,0.5)
+}
+
+p.par {
+    width: 96%;
+    padding: 21px;
+}
+img.welcome {
+    margin-left: 450px;
+    height: 250px;
+}
+#table{
+    
+    width: 100%;
+    padding:500 px
+}
+.aboutme {
+    width: 25%;
+    height: 235px;
+    transition: width 2s;
+    margin-left: 550px;
+}
+
+#table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width:100%;
+      }
+      
+#table td, #table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+#table tr:nth-child(even){background-color: #f2f2f2;}
+      
+#table tr:hover {background-color: #ddd;}
+      
+#table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
+#footer{
+        clear:both;
+        background: #8a8a74;
+        width: 100%;
+    }
+#footer p{
+        margin:50px;
+        padding: 5px 0px;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+#printnotice{
+    display: none;
+}

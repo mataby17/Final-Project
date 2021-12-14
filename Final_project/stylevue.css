@@ -1,0 +1,32 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  .remove {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    width: 20px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;  
+  }
+  

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="contacttem.css">
+    
+    <script src="finjava.js"></script>
+</head>
+<body>
+    <div class="header">
+            
+        <nav>
+            <ul>
+                <li><a href="finindex.html">Home</a></li>
+                    <li><a href="finabtme.html">About</a></li>
+                    <li><a href="finplace.html">My Native Place</a></li>
+                    <li><a href="fingallery.html">Gallery</a> </li> 
+                    <li><a href="fincontact.html">Contact Me!</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div class="title"><h1>Contact me!</h1></div>
+        <div id="error"></div>
+    </header>
+    <div class="container">
+        
+            <form id="validation" onsubmit="return testForm()">
+             <div class="user">
+                 <div class="input-col">
+                     <span class="detail"> First Name</span>
+                     <input class= "text" name="firstName" id= "firstname" type="text" placeholder="Enter your first name" required>
+                     
+                 </div>
+                 <div class="input-col">
+                    <span class="detail"> Last Name</span>
+                    <input class= "text" name = "lastname" id="lastname" type="text" placeholder="Enter your last name"  required>
+                </div>
+                <div class="input-col">
+                    <span class="detail"> Phone </span>
+                    <input class= "text" name="phone" id="phone" type="text" placeholder="Enter your phone number" required>
+                </div>
+                <div class="input-col">
+                    <span class="detail"> Email</span>
+                    <input class= "text" name="email" id="email" type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="input-col">
+                    <span class="detail"> Message</span>
+                    <input class= "text" name="message" id="message" type="text" placeholder="Enter your message" required>
+                </div>
+              </div>
+              
+              <div class="button">
+                  <input type="submit" class="buttons" value="Submit">
+
+              </div>
+              <div>
+                <address>
+                    Contact me @ <br>
+                    <a href="214-901-0042">Cell: 214-901-0042</a><br>
+                    <a href="mailto:abmathew@bu.edu">email : abmathew@bu.edu</a>
+                     
+                </address>
+              </div>
+            </form>
+
+   
+</div>
+
+</body>
+
+</html>

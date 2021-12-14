@@ -1,0 +1,28 @@
+{
+	"pharmacy": [{
+	    "book": "Pharmacy Technician Certification Study Guide 2020 and 2021",	
+         "isbn": "978-1628458046",
+	     "Price": "$25.63" 
+         
+	},
+    {
+        "book": "McGraw Hill's 2022/2023 Top 300 Pharmacy Drug Cards 6th Edition",	
+         "isbn": "978-1260467345",
+	     "Price": "$49.99" 
+         
+	},
+    {
+		"book": "Pharmacy Calculation Workbook",	
+         "isbn": "978-1733837743",
+	     "Price": "$13.99" 
+         
+	},
+    {    
+        "book": "Pharmacy Technician Certification Exam Practice Question Workbook",	
+         "isbn": "978-1734820331",
+	     "Price": "$21.69" 
+         
+	}    
+
+	]
+}

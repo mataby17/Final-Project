@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    background: rgb(209, 176, 176);
+    font-family: Work 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    background: rgb(202, 198, 198);
+
+}
+
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 33px;
+    padding: 25px;
+    position: relative;
+}
+nav a {
+    color: rgb(121, 73, 64);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(147, 9, 202);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: rgb(32, 6, 32);
+    position: absolute;
+    top:0;
+    width: 0%;
+    transition: all ease-in 250ms;
+}
+nav a:hover::before{
+    width: 75%;
+}
+
+img#successimg {
+    float: right;
+    height: 200px;
+    padding: 10px;
+    width: 25%;
+    margin-right: 30px;
+}
+h4.h4 {
+    text-align: center;
+    margin-top: 35px;
+}
+div#link {
+    text-align: center;
+    padding: 5px;
+}
+
+.aboutme {
+    width: 25%;
+    height: 235px;
+    transition: width 2s;
+    margin-left: 550px;
+}
+
+#footer{
+        clear:both;
+        background: #8a8a74;
+        width: 100%;
+    }
+#footer p{
+        margin:50px;
+        padding: 5px 0px;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+#printnotice{
+    display: none;
+}
+p.par {
+    padding: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: antiquewhite;
+  margin-top: -575px;
+}
+div#tab1{
+    padding: 85px;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
